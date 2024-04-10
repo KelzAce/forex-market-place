@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@forex-market-place/shared/error-handling": [
+        "libs/shared/error-handling/src/index.ts"
+      ],
+      "@forex-market-place/shared/logging": ["libs/shared/logging/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
